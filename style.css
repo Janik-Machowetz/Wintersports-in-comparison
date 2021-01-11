@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.active{
+    color: #19dafa !important;
+}
+.menu li{
+    display: inline-flex;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+.main-text{
+    width: 50%;
+    float: left;
+}
+.main-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.main-text p{
+    font-size: 15px;
+    width: 650px;
+    position: relative;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: dimgray;
+}
+.main-image{
+    width: 50%;
+    float: right;
+}
+.main-image img{
+    width: 100%;
+    float: right;
+    padding: left 50px;
+}
+.play-button{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.circle-around{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(magenta,red),radial-gradient(circle at top left, magenta,red);
+    background-origin: border-box;
+    background-clip: content-box,border-box; 
+    text-align: center;
+}
+.circle-aroundd .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #19dafa;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
